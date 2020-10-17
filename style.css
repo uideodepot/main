@@ -154,15 +154,45 @@ a:hover  {
 	background-position: 0 -56px;
 	margin-right: -25px;
 	margin-left: -25px;
-
 /* custom */
 	position: fixed;
 	width: 100%;
 	bottom: 2px;
-}
 /* custom */
+}
+
+/* custom section */
 /* center table */
 table.center {
 	margin-left:auto;
 	margin-right:auto;
 }
+/* center table */
+
+/* button */
+.entry {
+    background-color: #1e1e1e;
+    border: 2px inset #005825;
+    color: #2e3092;
+    padding: 2px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 5px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.entry:link {
+	color: #00adef;
+}
+.entry:visited {
+	color: #00adef;
+}
+.entry:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+/* button */
