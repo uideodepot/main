@@ -196,3 +196,9 @@ table.center {
 	text-decoration: none;
 }
 /* button */
+
+/* container */
+.container {
+    display: inline-block;
+}
+/* container */
