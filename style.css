@@ -226,6 +226,13 @@ div.adjustwidth {
 }
 /* adjustwidth */
 
+/* contentwidth */
+div.contentwidth {
+	max-width: 1350px;
+	margin: auto;
+}
+/* contentwidth */
+
 /* pagination */
 .pagination {
   display: inline-block;
