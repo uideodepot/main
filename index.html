@@ -27,7 +27,7 @@
 		<th style="padding-bottom: 70px"><span style="font-size: 300%; float: left; width: 0.9em; line-height: 64%">U</span>IDEO DEPOT</th>
 	</tr>
  	<tr style="text-align: center">
-		<td><p><a href="https://uideodepot.github.io/pers/selector.html" onclick="window.open('https://uideodepot.github.io/content/c.html', '_blank');" class="entry"><strong>ENTER</strong></a></p></td>
+		<td><p><a href="https://uideodepot.github.io/main/pick.html" onclick="window.open('https://uideodepot.github.io/content/c.html', '_blank');" class="entry"><strong>ENTER</strong></a></p></td>
 	</tr>
 </table>
 
@@ -35,7 +35,45 @@
 <div class="footer" style="position: fixed; width: 100%; bottom: 2px">
 <p>Uideo Depot</p>
 <p>&copy; 2020</p>
+<p><a href="http://top.andrew-lviv.net/?uid=17478"><img src="http://top.andrew-lviv.net/count.php?uid=17478" alt="TOP-RATING"/></a></p>
 </div>
 </div>
+<!-- entry script -->
+<script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "b2a161063786197a409837209ff92a84",
+    "excludeDomains": [
+        "uideodepot.github.io",
+        "uideo.unaux.com"
+    ],
+    "capping": {
+        "limit": 12,
+        "timeout": 1
+    },
+    "entryScript": {
+        "type": "timeout",
+        "timeout": 3000,
+        "capping": {
+            "limit": 12,
+            "timeout": 1
+        }
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
+<!-- entry script -->
 </body>
 </html>
